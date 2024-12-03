@@ -26,6 +26,11 @@ const Project = () => {
 
           </i>
           </a>
+          <a href="https://www.instagram.com/__h_a_s_s_a_n_7">
+          <i className="fa-brands  fa-instagram ">
+
+          </i>
+          </a>
 
           <i className="fa-brands  fa-facebook "></i>
           <i className="fa-brands  fa-linkedin "></i>
