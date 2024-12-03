@@ -21,9 +21,11 @@ const Project = () => {
           </h1>
           <p className="h5">I am a Web Developer</p>
           <br />
+          <a href="https://wa.me/+917991948390">
           <i className="fa-brands  fa-whatsapp ">
 
           </i>
+          </a>
 
           <i className="fa-brands  fa-facebook "></i>
           <i className="fa-brands  fa-linkedin "></i>
