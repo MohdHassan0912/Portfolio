@@ -39,9 +39,11 @@ const Common = () => {
               </Link>
             </li>
             <li>
+            <Link to ="/service">
               <a href="" className="menu">
                 Service
               </a>
+              </Link>
             </li>
             <li>
               <Link to="/Contact">
@@ -74,9 +76,9 @@ const Common = () => {
           <Link className="link" to="/Contact">
             <li>Contact</li>
           </Link>
-          {/* <Link className="link" to="/about">
-            <li>About</li>
-          </Link> */}
+          <Link className="link" to="/service">
+            <li>Service</li>
+          </Link>
           
         </ul>
       </div>
