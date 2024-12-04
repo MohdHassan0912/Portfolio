@@ -398,7 +398,9 @@ footer p {
     display: inline-block;
     padding: 20px;
 }
-
+.c4 a{
+    color: white;
+}
 
 @media screen and (max-width:600px)  {
     .r2{
@@ -428,14 +430,12 @@ footer p {
 
 
 /* about .css */
-.d1{
+/* .d1{
     background-color: #333;
     color: white;
-    /* padding-left: 1000px; */
     text-align: center;
     padding: 50px;
 
-    /* height: 70vh; */
 
 }
 .d2{
@@ -451,7 +451,6 @@ footer p {
     justify-content: center;
     align-items: center;
     text-justify: auto;
-    /* text-align: center; */
 }
  .p1{
     text-align: justify;
@@ -459,11 +458,68 @@ footer p {
 .txt{
     background-color: yellow;
     width: 1200px;
-}
-@media screen and (max-width:600px) {
-    
-}
-.n1{
+} */
+
+/* Basic styling */
+.d1 {
+    padding: 20px;
+  }
+  
+  .d2 {
+    padding: 20px;
+  }
+  
+  .txt {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .p1 {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  /* Header Styling */
+  .text-success {
+    color: #28a745;
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  /* Media Queries for responsiveness */
+  @media (max-width: 1200px) {
+    .p1 {
+      font-size: 1.1rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .text-success {
+      font-size: 1.8rem;
+    }
+  
+    .p1 {
+      font-size: 1rem;
+      padding: 0 10px; /* add some padding for smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .text-success {
+      font-size: 1.5rem;
+    }
+  
+    .p1 {
+      font-size: 0.9rem;
+    }
+  
+    .d1, .d2 {
+      padding: 10px;
+    }
+  }
+  
+
+/* .n1{
     background-color: #333;
     color: white;
     padding-top: 50px;
@@ -471,7 +527,89 @@ footer p {
     font-size: 40px;
     height: 70vh;
 
-}
+} */
+
+/* Basic styling */
+.d1 {
+    padding: 20px;
+  }
+  
+  .n1 {
+    padding: 20px;
+  }
+  
+  .text-primary {
+    color: #007bff;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    padding-left: 20px;
+    position: relative;
+  }
+  
+  li::before {
+    /* content: "✔";  */
+    position: absolute;
+    left: 0;
+    /* color: #007bff; */
+    font-size: 1.4rem;
+    top: 0;
+    padding-right: 10px;
+  }
+  
+  /* Media Queries for responsiveness */
+  @media (max-width: 1200px) {
+    .text-primary {
+      font-size: 1.8rem;
+    }
+  
+    li {
+      font-size: 1.1rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .text-primary {
+      font-size: 1.6rem;
+    }
+  
+    li {
+      font-size: 1rem;
+    }
+  
+    .n1 {
+      padding: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .text-primary {
+      font-size: 1.4rem;
+    }
+  
+    li {
+      font-size: 0.9rem;
+    }
+  
+    .d1, .n1 {
+      padding: 10px;
+    }
+  
+    ul {
+      padding-left: 10px; /* Adjust the padding for smaller screens */
+    }
+  }
+  
 
 /* General Reset */
 

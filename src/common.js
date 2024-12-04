@@ -62,14 +62,22 @@ const Common = () => {
           &times;
         </div>
         <ul>
+        <Link className="link" to="/">
+            <li>Home</li>
+          </Link>
           <Link className="link" to="/about">
             <li>About</li>
           </Link>
-
-          <li>About</li>
-          <li>About</li>
-          <li>About</li>
-          <li>About</li>
+          <Link className="link" to="/Skill">
+            <li>Skill</li>
+          </Link>
+          <Link className="link" to="/Contact">
+            <li>Contact</li>
+          </Link>
+          {/* <Link className="link" to="/about">
+            <li>About</li>
+          </Link> */}
+          
         </ul>
       </div>
     </>
