@@ -14,10 +14,10 @@ const Project = () => {
         </div>
         <div className="c4">
           <div className="c4-1">
-            <h1 className="h1">
-              Hey I'm <span className="text-success">Hassan</span>
+            <h4 className="h1">
+              Hey I'm <span className="text-success">Mohd Hassan</span>
               <br /> I'm a <span className="text-success">Web Developer</span>
-            </h1>
+            </h4>
             <p>
        I specialize in front-end development using modern technologies such as React, HTML, CSS, and JavaScript. I enjoy solving problems and turning ideas into real, interactive web applications.
             </p>
