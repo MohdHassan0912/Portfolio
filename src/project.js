@@ -18,7 +18,9 @@ const Project = () => {
               Hey I'm <span className="text-success">Hassan</span>
               <br /> I'm a <span className="text-success">Web Developer</span>
             </h1>
-            <p className="h5">I am a Web Developer</p>
+            <p>
+       I specialize in front-end development using modern technologies such as React, HTML, CSS, and JavaScript. I enjoy solving problems and turning ideas into real, interactive web applications.
+            </p>
             <br />
             <a href="https://wa.me/+917991948390">
               <i className="fa-brands  fa-whatsapp "></i>

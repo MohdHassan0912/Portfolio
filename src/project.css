@@ -381,7 +381,8 @@ footer p {
     font-size: 100px;
 }
 .c4 p{
-    font-size: 40px;
+    font-size: 18px;
+    text-align: justify;
 }
 .c4 i{
     font-size: 40px;
@@ -477,6 +478,7 @@ footer p {
   .p1 {
     font-size: 1.2rem;
     line-height: 1.6;
+    text-align: justify;
   }
   
   /* Header Styling */
@@ -629,13 +631,14 @@ footer p {
     background-color: #fff;
     padding: 30px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    max-width: 500px;
+    /* min-width: 100%; */
+    /* max-width: 500px; */
+    width: 500px;
     border-radius: 8px;
     position: absolute;
     top: 50% ;
     left:50%;
-    transform: translate(-35%,-40%);
+    transform: translate(-50%,-40%);
 }
 
 /* Form Heading */
@@ -692,6 +695,7 @@ input:focus, textarea:focus {
 @media (max-width: 768px) {
     .contact-container {
         padding: 20px;
+        width: 90%;
     }
 
     .submit-btn {
