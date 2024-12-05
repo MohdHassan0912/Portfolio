@@ -33,7 +33,7 @@ const Service = () => {
       <p className="ps-5 h5">Front-End Web Development</p>
       <li className="ps-5">
         I build fast, responsive, and interactive front-end websites using the
-        latest technologies like HTML5, CSS3, JavaScript, and React.js. I ensure
+        latest technologies like HTML, CSS, JavaScript, and React.js. I ensure
         that your website looks great and performs well on all devices.
       </li>
       <p className="ps-5 h5">Back-End Web Development</p>
