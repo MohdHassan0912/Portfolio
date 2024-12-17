@@ -9,6 +9,8 @@ import About from "./about";
 import Skill from "./skill";
 import Contact from "./contact";
 import Service from "./service";
+import Commmon1 from "./common1";
+import Common1 from "./common1";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -20,6 +22,7 @@ root.render(
         <Route exact path='/skill' element={<Skill/>}/>
         <Route exact path='/contact' element={<Contact/>}/>
         <Route exact path='/service' element={<Service/>}/>
+        <Route exact path='/common1' element={<Common1/>}/>
       </Routes>
     </BrowserRouter>
     {/* <Project/> */}

@@ -1,4 +1,5 @@
 import Common from "./common";
+import Commmon1 from "./common1";
 
 const About = () => {
   return (
@@ -69,11 +70,7 @@ const About = () => {
         </div>
       </div>
 
-      <footer>
-        <div className="container">
-          <p>&copy; 2024 Hassan's Portfolio | All Rights Reserved</p>
-        </div>
-      </footer>
+      <Commmon1/>
     </>
   );
 };

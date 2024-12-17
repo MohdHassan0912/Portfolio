@@ -1,4 +1,5 @@
 import Common from "./common";
+import Common1 from "./common1";
 
 const Contact = () => {
   return (
@@ -44,7 +45,7 @@ const Contact = () => {
           </div>
         </form>
       </div>
-      
+      <Common1/>
     </>
   );
 };

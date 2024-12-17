@@ -1,4 +1,6 @@
 import Common from "./common";
+import Common1 from "./common1";
+import Commmon1 from "./common1";
 
 const Service = () => {
   return (
@@ -43,11 +45,7 @@ const Service = () => {
         manage data storage for seamless user experiences.
       </li>
       </div>
-      <footer>
-        <div className="container">
-          <p>&copy; 2024 Hassan's Portfolio | All Rights Reserved</p>
-        </div>
-      </footer>
+      <Common1/>
     </>
   );
 };

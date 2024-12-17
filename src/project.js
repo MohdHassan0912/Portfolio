@@ -1,4 +1,6 @@
 import Common from "./common";
+import Common1 from "./common1";
+import Commmon1 from "./common1";
 import "./project.css";
 import { Link } from "react-router-dom";
 
@@ -40,17 +42,16 @@ const Project = () => {
             <br />
             <br />
             <br />
-            <a href="./docs/Mohd HASSAN CV -1.pdf" download="cv.pdf">
+            {/* <a href="./docs/Mohd HASSAN CV -1.pdf" download="cv.pdf">
               <button className="btn btn-success btn1">Hire me</button>
+            </a> */}
+            <a href="https://drive.google.com/file/d/1Fo9_Xl28VBdKK_XzfZQ1ph0Xnvy7oPFB/view?usp=drivesdk">
+            <button className="btn btn-success btn1">Hire me</button>
             </a>
           </div>
         </div>
       </div>
-      <footer>
-        <div className="container">
-          <p>&copy; 2024 Hassan's Portfolio | All Rights Reserved</p>
-        </div>
-      </footer>
+      <Common1/>
     </>
   );
 };
