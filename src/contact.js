@@ -45,7 +45,6 @@ const Contact = () => {
           </div>
         </form>
       </div>
-      <Common1/>
     </>
   );
 };

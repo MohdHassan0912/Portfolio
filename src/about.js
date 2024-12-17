@@ -44,7 +44,7 @@ const About = () => {
           <p className="p1 ">My technical skill set includes:</p>
 
           <li>
-            HTML5, CSS3, and JavaScript for building and styling dynamic
+            HTML, CSS, and JavaScript for building and styling dynamic
             websites.
           </li>
           <li>React.js for creating interactive user interfaces.</li>

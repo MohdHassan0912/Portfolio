@@ -1,6 +1,5 @@
 import Common from "./common";
 import Common1 from "./common1";
-import Commmon1 from "./common1";
 import "./project.css";
 import { Link } from "react-router-dom";
 
