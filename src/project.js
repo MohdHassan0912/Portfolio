@@ -44,7 +44,7 @@ const Project = () => {
             {/* <a href="./docs/Mohd HASSAN CV -1.pdf" download="cv.pdf">
               <button className="btn btn-success btn1">Hire me</button>
             </a> */}
-            <a href="https://drive.google.com/file/d/1Fo9_Xl28VBdKK_XzfZQ1ph0Xnvy7oPFB/view?usp=drivesdk">
+            <a href="https://drive.google.com/file/d/1cmyZaQ4wMybUmApjjYW9mlKSt3Vznc5H/view?usp=sharing">
             <button className="btn btn-success btn1">Hire me</button>
             </a>
           </div>
