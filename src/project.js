@@ -100,7 +100,7 @@ const Project = () => {
   <div className="stats">
     <div className="stat-card"><h3>50+</h3><p>Projects Delivered</p></div>
     <div className="stat-card"><h3>40+</h3><p>Happy Clients</p></div>
-    <div className="stat-card"><h3>5+</h3><p>Years Experience</p></div>
+    <div className="stat-card"><h3>6+</h3><p>Months Experience</p></div>
     <div className="stat-card"><h3>98%</h3><p>Client Satisfaction</p></div>
   </div>
 </div>
