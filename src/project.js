@@ -77,7 +77,7 @@ const Project = () => {
 
   <div className="project-card">
     <div className="project-image">
-      <img src="/images/laptop.png" alt="Project Preview" />
+      <img src={require("./image/laptop.png")}alt="Project Preview" />
     </div>
     <div className="project-info">
       <h3>Wellness TCYS</h3>
