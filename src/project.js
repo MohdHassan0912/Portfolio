@@ -56,13 +56,13 @@ const Project = () => {
   <h2>Technologies I Work With</h2>
   <p>Modern tools for modern solutions</p>
   <div className="tech-icons">
-    <img src="/icons/html.png" alt="HTML" />
-    <img src="/icons/css.png" alt="CSS" />
-    <img src="/icons/react.png" alt="React" />
-    <img src="/icons/node.png" alt="Node.js" />
-    <img src="/icons/mongodb.png" alt="MongoDB" />
-    <img src="/icons/aws.png" alt="AWS" />
-    <img src="/icons/docker.png" alt="Docker" />
+    <img src={require("./image/html.png")} alt="HTML" />
+    <img src={require("./image/css.png")} alt="CSS" />
+    <img src={require("./image/javascript.png")} alt="JavaScript" />
+    <img src={require("./image/react.png")} alt="React" />
+    <img src={require("./image/node.png")} alt="Node.js" />
+    <img src={require("./image/mongodb.png")} alt="MongoDB" />
+    <img src={require("./image/express.png")} alt="Express" />
     {/* Add more icons as needed */}
   </div>
 </div>
