@@ -849,18 +849,9 @@
   }
   
 
-/* .n1{
-    background-color: #333;
-    color: white;
-    padding-top: 50px;
-    padding-left: 160px;
-    font-size: 40px;
-    height: 70vh;
 
-} */
 
-/* Basic styling */
-.d1 {
+/* .d1 {
     padding: 20px;
   }
   
@@ -888,16 +879,13 @@
   }
   
   li::before {
-    /* content: "✔";  */
     position: absolute;
     left: 0;
-    /* color: #007bff; */
     font-size: 1.4rem;
     top: 0;
     padding-right: 10px;
   }
   
-  /* Media Queries for responsiveness */
   @media (max-width: 1200px) {
     .text-primary {
       font-size: 1.8rem;
@@ -936,11 +924,144 @@
     }
   
     ul {
-      padding-left: 10px; /* Adjust the padding for smaller screens */
+      padding-left: 10px; 
     }
-  }
-  
+  } */
 
+
+
+  .skills-section {
+  background: #000;
+  color: #fff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.skills-header h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.skills-header h2 span {
+  color: #28a745;
+}
+
+.skills-header p {
+  color: #bbb;
+  font-size: 1.1rem;
+  margin-bottom: 50px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.skill-card {
+  background: #111;
+  padding: 25px;
+  border-radius: 15px;
+  text-align: left;
+  transition: transform 0.3s ease;
+  border: 1px solid #222;
+}
+
+.skill-card:hover {
+  transform: translateY(-8px);
+}
+
+.skill-card h3 {
+  color: #28a745;
+  margin-bottom: 15px;
+}
+
+.skill-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skill-card li {
+  margin: 12px 0;
+  font-size: 0.95rem;
+  display: flex;
+  flex-direction: column;
+}
+  .progress {
+  background: #222;
+  height: 8px;
+  border-radius: 5px;
+  margin-top: 6px;
+  overflow: hidden;
+}
+
+.progress span {
+  display: block;
+  height: 100%;
+  background: #28a745;
+  border-radius: 5px;
+  transition: width 0.5s ease-in-out;
+}
+
+
+
+.services-section {
+  background: #000;
+  color: #fff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.services-header h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.services-header h2 span {
+  color: #28a745;
+}
+
+.services-header p {
+  color: #bbb;
+  font-size: 1.1rem;
+  margin-bottom: 50px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.service-card {
+  background: #111;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: left;
+  border: 1px solid #222;
+  transition: transform 0.3s ease, border 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  border: 1px solid #28a745;
+}
+
+.service-card h3 {
+  color: #28a745;
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+}
+
+.service-card .highlight {
+  font-weight: bold;
+  margin-top: 15px;
+  color: #fff;
+}
 /* General Reset */
 
 

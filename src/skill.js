@@ -7,37 +7,48 @@ const Skill = () => {
     <>
       <Common />
 
-      <div className="d1">
-        <h2 className="text-success">SKILL</h2>
-      </div>
+     <section className="skills-section">
+        <div className="skills-header">
+          <h2>My <span>Skills</span></h2>
+          <p>Technologies & tools I work with to build modern web applications</p>
+        </div>
 
-      <div className="n1">
-        <h5>Front-End Development:</h5>
-        <li>HTML: Building structured, semantic web content.</li>
-        <li>
-          CSS: Styling layouts and designing responsive, mobile-first websites.
-        </li>
-        <li>
-          JavaScript: Creating interactive features (e.g., form validation,
-          dynamic content loading).
-        </li>
-        <li>
-          React.js: Developing modern, single-page applications with reusable
-          components.
-        </li>
-        <li>Bootstrap: Rapidly prototyping responsive web designs.</li>
-        <h5>Back-End Development:</h5>
-        <li>Node.js: Server-side JavaScript programming.</li>
-        <li>Express.js: Developing web applications and APIs in Node.js.</li>
-        <li>MongoDB: NoSQL database management for data storage.</li>
-        <li>
-          MySQL/PostgreSQL: Relational database management for structured data.
-        </li>
-        <li>RESTful APIs: Designing and consuming RESTful web services.</li>
-        <h5>Tools & Libraries:</h5>
-        <li>VS Code: Code editor with extensions for efficient development.</li>
-        <li>Postman: API testing and development.</li>
-      </div>
+        <div className="skills-grid">
+          {/* Frontend */}
+          <div className="skill-card">
+            <h3>Front-End Development</h3>
+            <ul>
+              <li>HTML <div className="progress"><span style={{ width: "95%" }}></span></div></li>
+              <li>CSS <div className="progress"><span style={{ width: "90%" }}></span></div></li>
+              <li>JavaScript <div className="progress"><span style={{ width: "85%" }}></span></div></li>
+              <li>React.js <div className="progress"><span style={{ width: "80%" }}></span></div></li>
+              <li>Bootstrap <div className="progress"><span style={{ width: "85%" }}></span></div></li>
+            </ul>
+          </div>
+
+          {/* Backend */}
+          <div className="skill-card">
+            <h3>Back-End Development</h3>
+            <ul>
+              <li>Node.js <div className="progress"><span style={{ width: "80%" }}></span></div></li>
+              <li>Express.js <div className="progress"><span style={{ width: "75%" }}></span></div></li>
+              <li>MongoDB <div className="progress"><span style={{ width: "70%" }}></span></div></li>
+              <li>MySQL / PostgreSQL <div className="progress"><span style={{ width: "65%" }}></span></div></li>
+              <li>RESTful APIs <div className="progress"><span style={{ width: "80%" }}></span></div></li>
+            </ul>
+          </div>
+
+          {/* Tools */}
+          <div className="skill-card">
+            <h3>Tools & Libraries</h3>
+            <ul>
+              <li>VS Code <div className="progress"><span style={{ width: "95%" }}></span></div></li>
+              <li>Postman <div className="progress"><span style={{ width: "90%" }}></span></div></li>
+              <li>Git & GitHub <div className="progress"><span style={{ width: "85%" }}></span></div></li>
+            </ul>
+          </div>
+        </div>
+      </section>
       <Common1/>
     </>
   );
