@@ -240,6 +240,501 @@
 }
 
 
+
+/* ------------ Technologies Section ------------ */
+.technologies {
+  text-align: center;
+  padding: 60px 20px;
+  background: #111;
+  color: white;
+}
+
+.technologies h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.technologies p {
+  color: #aaa;
+  margin-bottom: 30px;
+}
+
+.tech-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.tech-icons img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  transition: transform 0.3s;
+}
+
+.tech-icons img:hover {
+  transform: scale(1.2);
+}
+
+/* ------------ Portfolio Section ------------ */
+.portfolio {
+  text-align: center;
+  padding: 70px 20px;
+  background: #000;
+  color: white;
+}
+
+.portfolio .tag {
+  background: #222;
+  color: #28a745;
+  padding: 6px 15px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+  border: none;
+}
+
+.portfolio h2 {
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+}
+
+.portfolio p {
+  color: #bbb;
+  max-width: 700px;
+  margin: 0 auto 40px;
+}
+
+.project-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #111;
+  border-radius: 15px;
+  padding: 30px;
+  margin: 0 auto 40px;
+  max-width: 900px;
+  text-align: left;
+  gap: 20px;
+}
+
+.project-image img {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 10px;
+}
+
+.project-info h3 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+.project-info p {
+  color: #aaa;
+  margin-bottom: 20px;
+}
+
+.project-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.btn-primary, .btn-secondary {
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: all 0.3s;
+}
+
+.btn-primary {
+  background: #28a745;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #218838;
+}
+
+.btn-secondary {
+  border: 2px solid #28a745;
+  color: #28a745;
+}
+
+.btn-secondary:hover {
+  background: #28a745;
+  color: white;
+}
+
+.view-all {
+  margin-top: 20px;
+  display: inline-block;
+}
+
+/* ------------ Success Stories Section ------------ */
+.success-stories {
+  text-align: center;
+  padding: 70px 20px;
+  background: #111;
+  color: white;
+}
+
+.success-stories h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.success-stories p {
+  color: #bbb;
+  margin-bottom: 40px;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.stat-card {
+  background: #000;
+  padding: 30px 40px;
+  border-radius: 12px;
+  flex: 1 1 200px;
+  max-width: 250px;
+  transition: transform 0.3s;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+}
+
+.stat-card h3 {
+  font-size: 2rem;
+  color: #28a745;
+  margin-bottom: 10px;
+}
+
+.stat-card p {
+  color: #ddd;
+}
+
+
+/* ----------- Reviews Section ----------- */
+.reviews {
+  padding: 70px 20px;
+  background: #000;
+  text-align: center;
+  color: white;
+}
+
+.reviews h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+  margin-bottom: 30px;
+}
+
+.review-card {
+  background: #111;
+  padding: 25px;
+  border-radius: 12px;
+  text-align: left;
+  transition: transform 0.3s;
+}
+
+.review-card:hover {
+  transform: translateY(-5px);
+}
+
+.review-card h4 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+  color: #28a745;
+}
+
+.review-card .role {
+  font-size: 0.9rem;
+  color: #aaa;
+  margin-bottom: 15px;
+}
+
+.review-card p {
+  color: #ddd;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.show-more {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+
+/* ----------- Expertise Section ----------- */
+.expertise {
+  padding: 70px 20px;
+  background: #111;
+  text-align: center;
+  color: white;
+}
+
+.expertise .tag {
+  background: #222;
+  color: #28a745;
+  padding: 6px 15px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+  border: none;
+}
+
+.expertise h2 {
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+}
+
+.expertise p {
+  color: #bbb;
+  margin-bottom: 40px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.progress-box {
+  background: #000;
+  padding: 30px;
+  border-radius: 15px;
+  max-width: 800px;
+  margin: auto;
+  text-align: left;
+}
+
+.progress-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+  color: #28a745;
+}
+
+.progress-bar {
+  background: #222;
+  height: 10px;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  background: #28a745;
+  width: 100%;
+  height: 100%;
+}
+
+.progress-steps {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.progress-steps h4 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.progress-steps ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.progress-steps li {
+  color: #ddd;
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+}
+
+.success-msg {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 1rem;
+  color: #28a745;
+}
+
+/* -------- Expertise Cards -------- */
+.expertise-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  padding: 60px 20px;
+  background: #000;
+}
+
+.expertise-card {
+  background: #111;
+  padding: 25px;
+  border-radius: 12px;
+  color: #fff;
+  transition: transform 0.3s;
+}
+
+.expertise-card:hover {
+  transform: translateY(-5px);
+}
+
+.expertise-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #28a745;
+}
+
+.expertise-card span {
+  font-size: 0.85rem;
+  color: #aaa;
+}
+
+/* -------- Development Process -------- */
+.dev-process {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 60px 20px;
+  background: #111;
+  color: #fff;
+}
+
+.dev-process h3 {
+  margin-bottom: 20px;
+  color: #28a745;
+}
+
+.process ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.process li {
+  margin-bottom: 15px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.tech-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.tech-grid h4 {
+  color: #28a745;
+  margin-bottom: 8px;
+}
+
+/* -------- What I Deliver -------- */
+.deliver {
+  padding: 70px 20px;
+  text-align: center;
+  background: #000;
+  color: #fff;
+}
+
+.deliver .tag {
+  background: #222;
+  color: #28a745;
+  padding: 6px 15px;
+  border-radius: 20px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.deliver h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.deliver p {
+  color: #bbb;
+  margin-bottom: 40px;
+}
+
+.deliver-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.deliver-card {
+  background: #111;
+  padding: 25px;
+  border-radius: 12px;
+  text-align: left;
+  transition: transform 0.3s;
+}
+
+.deliver-card:hover {
+  transform: translateY(-5px);
+}
+
+.deliver-card h3 {
+  color: #28a745;
+  margin-bottom: 10px;
+}
+
+.deliver-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0;
+}
+
+.deliver-card li {
+  color: #ddd;
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+}
+
+.deliver-card a {
+  color: #28a745;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.deliver-card a:hover {
+  text-decoration: underline;
+}
+
+/* -------- Call to Action -------- */
+.cta {
+  padding: 70px 20px;
+  background: #111;
+  text-align: center;
+  color: white;
+}
+
+.cta h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.cta p {
+  color: #bbb;
+  max-width: 600px;
+  margin: 0 auto 30px auto;
+}
+
+.cta .btn-primary {
+  padding: 12px 25px;
+  border-radius: 25px;
+}
 /* about .css */
 /* .d1{
     background-color: #333;
