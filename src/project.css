@@ -792,6 +792,29 @@
     font-size: 2rem;
     text-align: center;
   }
+
+  .skills {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 0;
+}
+
+.skills li {
+  background: #111;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  color: #28a745;
+  border: 1px solid #222;
+  transition: 0.3s;
+}
+
+.skills li:hover {
+  background: #28a745;
+  color: #000;
+}
   
   /* Media Queries for responsiveness */
   @media (max-width: 1200px) {

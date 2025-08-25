@@ -67,6 +67,14 @@ const About = () => {
             out my work or contact me if you’d like to discuss how we can create
             something amazing together!
           </p>
+          <h3>My Technical Skills</h3>
+            <ul className="skills">
+              <li>HTML / CSS / JavaScript</li>
+              <li>React.js</li>
+              <li>Node.js & Express.js</li>
+              <li>MongoDB & MySQL</li>
+              <li>Git & Version Control</li>
+            </ul>
         </div>
       </div>
 
